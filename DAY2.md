@@ -224,70 +224,94 @@ While Loop: Unknown iterations based on a condition.
 Do...While Loop: Ensure at least one execution, even if the condition is initially false.
 
 
-10. Provide an example of using optional chaining within a loop to access a potentially missing property of an object.
+#10. Provide an example of using optional chaining within a loop to access a potentially missing property of an object.
+
 Code:
 
 
-
-
-
+![10](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/632d1104-90f2-4247-b204-e05bf26fd75e)
 
 
 
 Output:
 
 
+![10 2](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/7f02181b-e4a7-4909-8239-b7f2632f4146)
 
 
-11. Write a for...in loop that iterates over the properties of an object and logs each property name and value.
+
+#11. Write a for...in loop that iterates over the properties of an object and logs each property name and value.
+
 Code:
 
+
+![11](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/76b130e2-8ef7-4cb8-b9a2-26d9e5983829)
 
 
 
 Output:
 
+
+![11 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/4c8a67d1-1722-49e7-a69a-8b239cab7f69)
 
 
 •	The for...in loop is used to iterate over the properties of the sampleObject.
+
 •	The loop variable property represents the property name at each iteration.
+
 •	Inside the loop, sampleObject[property] is used to access the value associated with the current property.
+
 •	The console.log statement logs each property name and its corresponding value.
 
 
-12. Explain the use of the break and continue statements within loops. Provide scenarios where each might be used.
+#12. Explain the use of the break and continue statements within loops. Provide scenarios where each might be used.
+
 Break Statement:
+
 The break statement is used to exit a loop prematurely, before the loop condition is false or before all iterations are completed. It is often used to terminate the loop when a certain condition is met.
+
 Use Cases for break:
-Searching or Filtering: If you find the item you are looking for, you can break out of the loop.
-Limiting Iterations: Exit the loop early if a certain condition is satisfied.
-Handling Errors: Break out of a loop if an error condition is encountered.
+
+1. Searching or Filtering: If you find the item you are looking for, you can break out of the loop.
+2. Limiting Iterations: Exit the loop early if a certain condition is satisfied.
+3. Handling Errors: Break out of a loop if an error condition is encountered.
+
 continue Statement:
+
 The continue statement is used to skip the rest of the code in the current iteration and proceed to the next iteration of the loop. It allows you to bypass certain parts of the loop's body based on a condition.
+
 Use Cases for continue:
-Skipping Unwanted Elements: Continue to the next iteration without processing specific elements.
-Avoiding Redundant Code: Skip unnecessary code execution based on certain conditions.
-Filtering Items: Use it to filter out items from being processed in a loop.
+
+1.Skipping Unwanted Elements: Continue to the next iteration without processing specific elements.
+2.Avoiding Redundant Code: Skip unnecessary code execution based on certain conditions.
+3.Filtering Items: Use it to filter out items from being processed in a loop.
+
 Scenario Examples:
+
 Using break:
+
 Suppose you are searching for a specific item in an array:
 
 
 
+![12](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/4a78bb4a-df9c-4bf8-98ce-fd107e072879)
 
 
 
+![12 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/4fbfa813-a7e6-445f-a382-e1ddfcf1fcbf)
 
 
 
 Using continue:
+
 Suppose you want to process only positive numbers in an array:
 
 
+![12 2](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/7f71d294-9335-4d13-9218-64fd4f2cc50f)
 
 
 
-
+![12 3](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/a8569990-207f-4e42-953c-1dfbc2f006a3)
 
 
 
