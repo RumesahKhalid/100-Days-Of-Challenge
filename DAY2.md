@@ -188,30 +188,37 @@ Output:
 ![7 5](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/697aca79-692d-47e3-86c7-7b112735e175)
 
 
-8. Write a loop that iterates over an array of numbers and logs whether each number is even or odd, using a ternary operator.
+#8. Write a loop that iterates over an array of numbers and logs whether each number is even or odd, using a ternary operator.
+
 Code:
 
 
-
+![8](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/570014db-5fed-462b-a9ff-2ebee5b17119)
 
 
 
 Output:
 
 
+![8 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/9d6b847c-3ea1-42d5-8245-1abfcc3af27c)
 
 
+#9. Describe the differences between the for loop, while loop, and do...while loop in JavaScript. When might you use each?
 
-
-9. Describe the differences between the for loop, while loop, and do...while loop in JavaScript. When might you use each?
 For Loop:
+
 Use Case: Known number of iterations, often for arrays.
 
 While Loop:
+
 Use Case: Unknown number of iterations determined by a condition.
+
 Do...While Loop:
+
 Use Case: Similar to while but guarantees at least one execution.
+
 When to Use Each:
+
 For Loop: Known iterations, especially for arrays.
 While Loop: Unknown iterations based on a condition.
 Do...While Loop: Ensure at least one execution, even if the condition is initially false.
