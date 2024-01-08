@@ -1,6 +1,6 @@
 Assignment No:03
 
-1.	Rewrite the following code using a ternary operator:
+#1.	Rewrite the following code using a ternary operator:
 let result;
 if (score >= 80) {
     result = "Pass";
@@ -9,19 +9,22 @@ if (score >= 80) {
 }
 
 Code:
+
 ![1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/324f0393-a088-4903-b706-34b03949ded8)
 
-Output:
- 
 
-2.  How does the optional chaining operator (?.) work, and how can it be used to access nested properties of an object?
+Output:
+
+![1 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/629450eb-649b-4bde-9f0f-e1b3c9164236)
+
+ 
+#2.  How does the optional chaining operator (?.) work, and how can it be used to access nested properties of an object?
 The optional chaining operator (?.) is a feature introduced in JavaScript (ES11/ES2020) that provides a concise and safe way to access properties of an object, especially when dealing with nested objects or properties that may be undefined or null.
 Code:
 Traditional Approach:
 
 
-
-
+![2](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/3c3afced-919a-446b-98bd-333ac7a4593d)
 
 
 
@@ -29,16 +32,18 @@ Optional Chaining:
 
 
 
-
-
+![2 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/80735d0d-b672-458b-a07a-17cdc92615fb)
 
 
 
 Output:
 
 
+![2 2](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/eadbc292-e9df-4b3e-bce4-afe776ebe715)
 
-3. Compare the for...in loop and the for...of loop in terms of their use cases and the types of values they iterate over.
+
+
+#3. Compare the for...in loop and the for...of loop in terms of their use cases and the types of values they iterate over.
 The for...in and for...of loops are both used for iteration in JavaScript, but they have different use cases and iterate over different types of values.
 for...in Loop:
 Use Case:
