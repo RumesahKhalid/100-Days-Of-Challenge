@@ -92,14 +92,14 @@ Code:
 
 
 
-
+![4](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/f8b94c65-6a63-4166-a005-afe391cb6fda)
 
 
 
 Output:
 
 
-
+![4 4](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/6b69d0f8-f50b-456b-8bd4-4cbec4c9ed50)
 
 
 
@@ -112,6 +112,7 @@ Code:
 
 
 
+![5](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/e8808538-4bf1-455d-abc8-292ca7bfb921)
 
 
 
@@ -119,8 +120,10 @@ Code:
 Output:
 
 
+![5 5](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/fde4249d-bbe4-4242-81ab-1a3157bb8bb1)
 
-6. Create an object named student with properties name, age, and grades. Add a method calculateAverage that calculates the average of the grades.
+
+#6. Create an object named student with properties name, age, and grades. Add a method calculateAverage that calculates the average of the grades.
 Code:
 
 
