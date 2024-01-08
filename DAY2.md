@@ -282,9 +282,9 @@ The continue statement is used to skip the rest of the code in the current itera
 
 Use Cases for continue:
 
-1.Skipping Unwanted Elements: Continue to the next iteration without processing specific elements.
-2.Avoiding Redundant Code: Skip unnecessary code execution based on certain conditions.
-3.Filtering Items: Use it to filter out items from being processed in a loop.
+1. Skipping Unwanted Elements: Continue to the next iteration without processing specific elements.
+2. Avoiding Redundant Code: Skip unnecessary code execution based on certain conditions.
+3. Filtering Items: Use it to filter out items from being processed in a loop.
 
 Scenario Examples:
 
@@ -317,11 +317,28 @@ Suppose you want to process only positive numbers in an array:
 
 
 
-13. Write a function calculateTax that calculates and returns the tax amount based on a given income. Use a ternary operator to determine the tax rate.
+#13. Write a function calculateTax that calculates and returns the tax amount based on a given income. Use a ternary operator to determine the tax rate.
+    
 Code:
 
 
+![13](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/888ebdf8-e3f5-4ff7-b2e5-1b20a5d6f07f)
 
+
+
+Output:
+
+
+![13 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/6cdfc8f0-baad-4199-93e1-85dbf250de26)
+
+
+
+#14. Create an object car with properties make, model, and a method startEngine that logs a message. Instantiate the object and call the method.
+    
+Code:
+
+
+![14](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/13e515c7-1afe-4c53-b728-3763d5136077)
 
 
 
@@ -329,47 +346,52 @@ Code:
 Output:
 
 
-14. Create an object car with properties make, model, and a method startEngine that logs a message. Instantiate the object and call the method.
-Code:
+![14 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/dd33f997-f749-46db-99d7-bfbaa13b8dc7)
 
 
 
-\
-
-
-
-Output:
-
-
-
-15. Explain the differences between regular functions and arrow functions in terms of scope, this binding, and their use as methods.
+#15. Explain the differences between regular functions and arrow functions in terms of scope, this binding, and their use as methods.
+    
 1. Scope:
+   
 Regular Functions:
 •	Have their own this binding.
 •	Create a new this context when invoked.
+
 Arrow Functions:
 •	Inherit this from the enclosing scope.
+
 2. this Binding:
+   
 Regular Functions:
 •	Have dynamic this binding, determined by how the function is called (e.g., as a method, standalone function, etc.).
+
 Arrow Functions:
 •	Inherit this from the surrounding lexical context (the context in which they are defined).
+
 3. Use as Methods:
+   
 Regular Functions:
 •	Suitable for use as object methods due to their dynamic this binding.
 
 Arrow Functions:
 •	Not suitable as object methods if dynamic this binding is required; instead, use regular functions.
+
 4. Arguments Object:
+   
 Regular Functions:
 •	Have access to the arguments object, which holds all arguments passed to the function.
+
 Arrow Functions:
 •	Do not have their own arguments object; it inherits from the enclosing scope.
-Use Cases:
+
+5. Use Cases:
+   
 Regular Functions:
 •	Use when you need the flexibility of dynamic this binding (e.g., in object methods).
 •	When you need access to the arguments object.
 •	In scenarios where this needs to be determined at runtime.
+
 Arrow Functions:
 •	Use when you want to inherit this from the enclosing scope (lexical scoping).
 •	For concise, short functions, especially in functional programming.
