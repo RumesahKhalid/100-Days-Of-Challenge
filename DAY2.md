@@ -19,7 +19,9 @@ Output:
 
  
 #2.  How does the optional chaining operator (?.) work, and how can it be used to access nested properties of an object?
+
 The optional chaining operator (?.) is a feature introduced in JavaScript (ES11/ES2020) that provides a concise and safe way to access properties of an object, especially when dealing with nested objects or properties that may be undefined or null.
+
 Code:
 Traditional Approach:
 
@@ -44,37 +46,48 @@ Output:
 
 
 #3. Compare the for...in loop and the for...of loop in terms of their use cases and the types of values they iterate over.
+
 The for...in and for...of loops are both used for iteration in JavaScript, but they have different use cases and iterate over different types of values.
 for...in Loop:
+
 Use Case:
 Primarily used to iterate over the enumerable properties of an object, including inherited properties from its prototype chain.
 It's often used with objects to loop through keys (property names).
+
 Code:
 
      
-
+![3](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/fa4502bf-a913-4a3a-9759-ad429fb3df60)
 
 
 Output:
 
+
+![3 3](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/ca75cebb-e04d-4a17-b3af-5fdcca3837b7)
 
 
 for...of Loop:
+
 Use Case:
 Introduced in ECMAScript 2015 (ES6), it is used to iterate over values of iterable objects, such as arrays, strings, maps, sets, etc.
 It's designed for more concise iteration over the values themselves, not the properties or keys.
+
 Code:
 
+
+![3 4](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/58e21627-b0d6-4766-a618-425623afb227)
 
 
 
 Output:
 
 
+![3 5](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/2f1c614a-f32d-4202-9ee9-2cba23340288)
 
   
 
-4. Define a function calculateAverage that takes an array of numbers as an argument and returns the average value.
+#4. Define a function calculateAverage that takes an array of numbers as an argument and returns the average value.
+   
 Code:
 
 
@@ -90,9 +103,11 @@ Output:
 
 
 
-5.  Explain the concept of "closures" in JavaScript and provide an example of their practical use.
+#5.  Explain the concept of "closures" in JavaScript and provide an example of their practical use.
+
 Concept: 
 A closure is a JavaScript feature that allows a function to access variables from its outer (enclosing) scope, even after the outer function has finished executing. It essentially "closes over" the variables it needs, preserving their values.
+
 Code:
 
 
