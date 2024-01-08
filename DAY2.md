@@ -143,7 +143,7 @@ Output:
 
 Cloning an object in JavaScript can be done using various methods, and each method has different implications for copying. Here are examples for deep copy, shallow copy, and reference copy
 
-1. Deep Copy:
+Deep Copy:
 A deep copy creates a completely independent copy of the object, including nested objects, so changes to the original object or its nested objects won't affect the copy.
 
 Code:
@@ -156,7 +156,7 @@ Output:
 ![7 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/9d256f85-ce48-4da2-a86f-f7c3103b7196)
 
 
-2. Shallow Copy:
+Shallow Copy:
 A shallow copy creates a new object, but it only copies the references to the nested objects. Changes to the properties of the nested objects are reflected in both the original and the copied objects.
 
 Code:
