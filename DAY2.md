@@ -124,32 +124,36 @@ Output:
 
 
 #6. Create an object named student with properties name, age, and grades. Add a method calculateAverage that calculates the average of the grades.
+
 Code:
 
 
-
-
-
-
-
+![6](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/58c2966c-0975-4842-a937-7f645116420c)
 
 
 
 
 Output:
+
+
+![6 6](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/478647d8-8943-4f8a-adbf-0b0564616199)
  
 
+#7. How can you clone an object in JavaScript and also give one example each deep copy, shallow copy, and reference copy
 
-7. How can you clone an object in JavaScript and also give one example each deep copy, shallow copy, and reference copy
 Cloning an object in JavaScript can be done using various methods, and each method has different implications for copying. Here are examples for deep copy, shallow copy, and reference copy
+
 1. Deep Copy:
 A deep copy creates a completely independent copy of the object, including nested objects, so changes to the original object or its nested objects won't affect the copy.
+
 Code:
 
-
+![7](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/6c09588d-2c3a-49c2-84c1-9bb341e7b150)
 
 
 Output:	
+
+![7 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/9d256f85-ce48-4da2-a86f-f7c3103b7196)
 
 
 2. Shallow Copy:
@@ -158,21 +162,30 @@ A shallow copy creates a new object, but it only copies the references to the ne
 Code:
 
 
+![7 2](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/8de5bdb2-c895-4293-af9a-38d3a3f007d0)
+
 
 
 Output:	
 
 
- 
+![7 1](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/9d256f85-ce48-4da2-a86f-f7c3103b7196)
+
+
+
 Reference Copy:
 A reference copy simply copies the reference to the original object, so changes to the properties of the original object are reflected in the copied object and vice versa.
+
 Code:
 
 
+![7 4](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/afb1dcfb-0762-48de-bf6e-80e9d2d47d6c)
+
 
 
 Output:	
 
+![7 5](https://github.com/RumesahKhalid/100-Days-Of-Challenge/assets/112583410/697aca79-692d-47e3-86c7-7b112735e175)
 
 
 8. Write a loop that iterates over an array of numbers and logs whether each number is even or odd, using a ternary operator.
