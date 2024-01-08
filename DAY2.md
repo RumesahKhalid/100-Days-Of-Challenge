@@ -355,46 +355,61 @@ Output:
 1. Scope:
    
 Regular Functions:
+
 •	Have their own this binding.
+
 •	Create a new this context when invoked.
 
 Arrow Functions:
+
 •	Inherit this from the enclosing scope.
 
 2. this Binding:
    
 Regular Functions:
+
 •	Have dynamic this binding, determined by how the function is called (e.g., as a method, standalone function, etc.).
 
 Arrow Functions:
+
 •	Inherit this from the surrounding lexical context (the context in which they are defined).
 
 3. Use as Methods:
    
 Regular Functions:
+
 •	Suitable for use as object methods due to their dynamic this binding.
 
 Arrow Functions:
+
 •	Not suitable as object methods if dynamic this binding is required; instead, use regular functions.
 
 4. Arguments Object:
    
 Regular Functions:
+
 •	Have access to the arguments object, which holds all arguments passed to the function.
 
 Arrow Functions:
+
 •	Do not have their own arguments object; it inherits from the enclosing scope.
 
 5. Use Cases:
    
 Regular Functions:
+
 •	Use when you need the flexibility of dynamic this binding (e.g., in object methods).
+
 •	When you need access to the arguments object.
+
 •	In scenarios where this needs to be determined at runtime.
 
 Arrow Functions:
+
 •	Use when you want to inherit this from the enclosing scope (lexical scoping).
+
 •	For concise, short functions, especially in functional programming.
+
 •	When you want to avoid the arguments object and prefer rest parameters.
 
 
